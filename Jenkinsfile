@@ -1,5 +1,5 @@
 
-de {
+node {
 
     stage('Checkout') {
 
