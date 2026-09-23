@@ -3,7 +3,7 @@ services:
   db:
     build:
       context: ./database
-  container_name: db 
+    container_name: db 
 
     ports:
       - "5432:5432"
@@ -21,7 +21,7 @@ services:
   backend:
     build:
       context: ./backend
-   container_name: backend
+    container_name: backend
     
 
     ports:
